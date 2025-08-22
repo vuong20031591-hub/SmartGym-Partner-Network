@@ -1,0 +1,77 @@
+/* Global styles for enhanced animations */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  line-height: 1.6;
+  color: hsl(var(--foreground));
+  background: hsl(var(--background));
+  overflow-x: hidden;
+}
+
+/* Enhanced 3D transformations */
+.testimonial-card,
+.investment-card,
+.step-card {
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+/* Enhanced carousel container with perspective */
+.carousel-container {
+  perspective: 1200px;
+}
+
+/* Process steps 3D perspective */
+.step-card {
+  perspective: 800px;
+}
+
+.step-icon {
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+/* Investment cards hover effects */
+.investment-card:hover {
+  transform: translateY(-5px) rotateX(5deg);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Testimonial card enhanced styles */
+.testimonial-card {
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Smooth animations for better performance */
+.animate-enhanced {
+  will-change: transform, opacity;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--muted));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary)/0.8);
+}
