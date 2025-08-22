@@ -130,7 +130,7 @@ const HeroSection = () => {
             ref={headlineRef}
             className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-foreground mb-6 leading-tight"
           >
-            Nhượng Quyền Phòng Tập Thông Minh SmartGym - Đầu Tư Gym Hiệu Quả
+            Nhượng Quyền SmartGym - Đầu Tư Phòng Tập Thông Minh
           </h1>
 
           <p

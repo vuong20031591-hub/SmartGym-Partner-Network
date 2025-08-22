@@ -9,7 +9,7 @@ interface SEOHeadProps {
 }
 
 const SEOHead: React.FC<SEOHeadProps> = ({
-  title = "Nhượng Quyền Phòng Tập SmartGym - Đầu Tư Gym Thông Minh 2025",
+  title = "Nhượng Quyền SmartGym - Đầu Tư Phòng Tập Thông Minh 2025",
   description = "Nhượng quyền phòng tập thông minh SmartGym Partner Network. Đầu tư gym với công nghệ IoT, ROI 25%, hoàn vốn 12-18 tháng. Hỗ trợ toàn diện từ A-Z tại TP.HCM.",
   keywords = "nhượng quyền phòng tập, đầu tư gym, SmartGym, phòng tập thông minh, nhượng quyền gym, đầu tư phòng gym, mô hình gym, franchise gym, gym IoT, phòng tập tự động",
   canonicalUrl = "https://smartgym-partner.vn/",

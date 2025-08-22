@@ -5,7 +5,7 @@ interface GoogleAnalyticsProps {
 }
 
 const GoogleAnalytics: React.FC<GoogleAnalyticsProps> = ({ 
-  measurementId = 'G-XXXXXXXXXX' // Replace with actual GA4 measurement ID
+  measurementId = 'G-WD3G7G8MB9' // Replace with actual GA4 measurement ID
 }) => {
   
   useEffect(() => {
