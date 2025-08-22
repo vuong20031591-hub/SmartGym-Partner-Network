@@ -15,7 +15,7 @@ const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
       <SEOHead />
-      <GoogleAnalytics measurementId="G-XXXXXXXXXX" />
+      <GoogleAnalytics measurementId={import.meta.env.VITE_GA_MEASUREMENT_ID} />
       <PerformanceOptimizer />
       <Toaster />
       <Sonner />
