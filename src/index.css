@@ -1,6 +1,144 @@
+/* Import Inter Font Only */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Inter font loaded from Google Fonts - no custom @font-face needed */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Global Font Override - Inter for everything */
+@layer base {
+  * {
+    font-family: 'Inter', system-ui, sans-serif !important;
+  }
+
+  html {
+    font-family: 'Inter', system-ui, sans-serif !important;
+  }
+
+  body {
+    font-family: 'Inter', system-ui, sans-serif !important;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', system-ui, sans-serif !important;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  p, span, div, a, button, input, textarea, label, select, option {
+    font-family: 'Inter', system-ui, sans-serif !important;
+  }
+
+  /* Force Inter on all components */
+  .ui-button, .ui-input, .ui-textarea, .ui-select, .ui-label,
+  [data-radix-popper-content-wrapper] *,
+  [data-radix-dialog-content] *,
+  [data-radix-toast-viewport] *,
+  [class*="ui-"], [class*="radix-"],
+  button, input, textarea, select, option,
+  .btn, .form-control, .form-input, .form-textarea,
+  nav, nav *, header, header *, footer, footer *,
+  .card, .card *, .dialog, .dialog *,
+  .toast, .toast *, .tooltip, .tooltip *,
+  .dropdown, .dropdown *, .menu, .menu * {
+    font-family: 'Inter', system-ui, sans-serif !important;
+  }
+
+  /* Specific weight classes for Monument Extended */
+  .font-light {
+    font-weight: 300;
+  }
+
+  .font-normal {
+    font-weight: 400;
+  }
+
+  .font-medium {
+    font-weight: 500;
+  }
+
+  .font-semibold {
+    font-weight: 600;
+  }
+
+  .font-bold {
+    font-weight: 700;
+  }
+
+  .font-extrabold {
+    font-weight: 800;
+  }
+
+  .font-black {
+    font-weight: 900;
+  }
+}
+
+/* Inter Utility Classes */
+@layer utilities {
+  .font-inter {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  .font-inter-medium {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+
+  .font-inter-semibold {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  .font-inter-bold {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .font-inter-extrabold {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+  }
+
+  .font-inter-black {
+    font-family: 'Inter', system-ui, sans-serif;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+  }
+
+  /* Force Inter when needed */
+  .font-inter-force {
+    font-family: 'Inter', system-ui, sans-serif !important;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  .font-inter-force-bold {
+    font-family: 'Inter', system-ui, sans-serif !important;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  /* Override any other font */
+  .override-font {
+    font-family: 'Inter', system-ui, sans-serif !important;
+  }
+
+  /* Make sure Inter applies to all text */
+  .inter-text * {
+    font-family: 'Inter', system-ui, sans-serif !important;
+  }
+}
 
 /* Testimonials Section Styles */
 .testimonial-card {

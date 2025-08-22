@@ -31,7 +31,7 @@ const HeroSection = () => {
       const text = headlineRef.current.textContent || '';
       const words = text.split(' ');
       headlineRef.current.innerHTML = words.map(word => 
-        `<span class="inline-block overflow-hidden"><span class="inline-block">${word}</span></span>`
+        `<span class="inline-block overflow-visible py-2"><span class="inline-block">${word}</span></span>`
       ).join(' ');
 
       const wordSpans = headlineRef.current.querySelectorAll('span span');
@@ -125,10 +125,10 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl mx-auto py-4">
           <h1
             ref={headlineRef}
-            className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-foreground mb-6 leading-tight"
+            className="text-3xl md:text-5xl lg:text-6xl font-bold text-foreground mb-8 leading-normal"
           >
             Nhượng Quyền SmartGym - Đầu Tư Phòng Tập Thông Minh
           </h1>

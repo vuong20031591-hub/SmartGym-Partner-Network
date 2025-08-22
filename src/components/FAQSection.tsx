@@ -206,7 +206,7 @@ const FAQSection = () => {
               <HelpCircle className="w-8 h-8 text-primary-foreground" />
             </div>
           </div>
-          <h2 className="faq-title text-3xl md:text-5xl font-heading font-bold text-foreground mb-6">
+          <h2 className="faq-title text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
             Câu Hỏi Thường Gặp Về Nhượng Quyền SmartGym
           </h2>
           <p className="faq-description text-lg text-muted-foreground max-w-3xl mx-auto">

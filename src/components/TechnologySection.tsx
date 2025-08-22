@@ -108,7 +108,7 @@ const TechnologySection = () => {
         {/* Section Header */}
         <div className="container mx-auto px-4 mb-16">
           <div className="text-center max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-5xl font-heading font-bold text-foreground mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Công nghệ thông minh 4.0
             </h2>
             <p className="text-lg text-muted-foreground">

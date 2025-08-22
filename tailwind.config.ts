@@ -84,8 +84,11 @@ export default {
 				'card': 'var(--shadow-card)'
 			},
 			fontFamily: {
-				'heading': 'var(--font-heading)',
-				'body': 'var(--font-body)'
+				// Inter làm font duy nhất cho toàn bộ website
+				'sans': ['Inter', 'system-ui', 'sans-serif'],
+				'heading': ['Inter', 'system-ui', 'sans-serif'],
+				'body': ['Inter', 'system-ui', 'sans-serif'],
+				'inter': ['Inter', 'system-ui', 'sans-serif']
 			},
 			backdropBlur: {
 				'glass': '12px'

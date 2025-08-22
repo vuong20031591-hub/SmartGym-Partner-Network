@@ -188,7 +188,7 @@ const ContactForm = () => {
                   type="email"
                   value={formData.email}
                   onChange={(e) => handleInputChange('email', e.target.value)}
-                  placeholder="email@example.com"
+                  placeholder="abc@gmail.com"
                 />
               </div>
 
@@ -311,7 +311,7 @@ const ContactForm = () => {
         <div className="max-w-2xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-5xl font-heading font-bold text-foreground mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6">
               Sẵn sàng mở phòng tập thông minh?
             </h2>
             <p className="text-lg text-muted-foreground">

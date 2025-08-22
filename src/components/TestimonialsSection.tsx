@@ -473,7 +473,7 @@ const TestimonialsSection: React.FC = () => {
         <div className="testimonials-header text-center mb-16">
           <h2
             id="testimonials-heading"
-            className="text-4xl md:text-5xl font-heading font-bold text-foreground mb-6"
+            className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6"
           >
             Câu chuyện thành công
           </h2>
