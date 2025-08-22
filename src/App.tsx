@@ -5,12 +5,18 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
+import SEOHead from "./components/SEOHead";
+import GoogleAnalytics from "./components/GoogleAnalytics";
+import PerformanceOptimizer from "./components/PerformanceOptimizer";
 
 const queryClient = new QueryClient();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <TooltipProvider>
+      <SEOHead />
+      <GoogleAnalytics measurementId="G-XXXXXXXXXX" />
+      <PerformanceOptimizer />
       <Toaster />
       <Sonner />
       <BrowserRouter>

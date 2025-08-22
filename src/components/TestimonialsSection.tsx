@@ -280,7 +280,7 @@ const TestimonialCard = React.memo<TestimonialData & { totalSlides: number }>(({
               <div className="w-20 h-20 rounded-2xl overflow-hidden border-2 border-primary/20">
                 <img
                   src={image}
-                  alt={business}
+                  alt={`${name} - Đối tác thành công nhượng quyền SmartGym tại ${business}`}
                   className="w-full h-full object-cover"
                   loading="lazy"
                 />

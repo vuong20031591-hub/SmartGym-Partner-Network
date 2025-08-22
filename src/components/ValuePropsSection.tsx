@@ -68,11 +68,11 @@ const ValuePropsSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-foreground mb-6">
-            Tại sao chọn mô hình SGPN?
+            Lợi Ích Nhượng Quyền Phòng Tập SmartGym
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Hệ sinh thái công nghệ hoàn chỉnh giúp bạn vận hành phòng tập hiệu quả, 
-            tối đa hóa lợi nhuận với chi phí tối thiểu.
+            Hệ sinh thái công nghệ IoT hoàn chỉnh giúp đầu tư gym hiệu quả,
+            tối đa hóa lợi nhuận với mô hình nhượng quyền phòng tập thông minh.
           </p>
         </div>
 

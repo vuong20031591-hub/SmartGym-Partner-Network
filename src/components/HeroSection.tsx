@@ -126,18 +126,18 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 
+          <h1
             ref={headlineRef}
             className="text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-foreground mb-6 leading-tight"
           >
-            Mở phòng tập thông minh, vận hành nhẹ – lợi nhuận bền vững
+            Nhượng Quyền Phòng Tập Thông Minh SmartGym - Đầu Tư Gym Hiệu Quả
           </h1>
-          
-          <p 
+
+          <p
             ref={subtitleRef}
             className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed"
           >
-            Từ thiết bị IoT đến ứng dụng hội viên – chúng tôi chuẩn hóa mọi thứ để bạn tăng tốc mở rộng với mô hình nhượng quyền 4.0.
+            Mô hình nhượng quyền gym thông minh với công nghệ IoT và AI. Đầu tư phòng tập từ 800 triệu, ROI 25%, hoàn vốn 12-18 tháng. Hỗ trợ toàn diện từ A-Z tại TP.HCM.
           </p>
 
           <div ref={ctaRef} className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">

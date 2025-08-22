@@ -121,11 +121,11 @@ const InvestmentSection = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-heading font-bold text-foreground mb-6">
-            Mô hình đầu tư linh hoạt
+            Gói Đầu Tư Nhượng Quyền Gym Thông Minh
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Chọn gói phù hợp với quy mô và ngân sách của bạn. 
-            Tất cả gói đều bao gồm công nghệ IoT và hỗ trợ vận hành.
+            Chọn gói đầu tư phòng tập phù hợp với quy mô và ngân sách.
+            Tất cả gói nhượng quyền đều bao gồm công nghệ IoT và hỗ trợ vận hành toàn diện.
           </p>
         </div>
 
